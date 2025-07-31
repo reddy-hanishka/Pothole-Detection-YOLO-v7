@@ -6,7 +6,7 @@ This project implements **YOLOv7** to detect **potholes** in real-time from road
 ---
 
 ## 📂 Project Structure
-<pre><code>```plaintext
+<pre><code>```
 pothole-detection-yolov7/
 ├── main.py, main1.py, main_new.py     # Custom detection and experimentation scripts
 ├── detect.py                          # Inference on images or videos
