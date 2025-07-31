@@ -126,7 +126,3 @@ pip install -r requirements.txt
 This project is based on YOLOv7. Read the paper here.
 https://link.springer.com/chapter/10.1007/978-981-99-6568-7_36
 
-
-
-
-Let me know if you want a shorter or more academic version!
