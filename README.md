@@ -6,9 +6,9 @@ This project implements **YOLOv7** to detect **potholes** in real-time from road
 ---
 
 ## 📂 Project Structure
-
+<pre><code>```plaintext
 pothole-detection-yolov7/
-├── main_new.py                        # Custom detection and experimentation scripts
+├── main.py, main1.py, main_new.py     # Custom detection and experimentation scripts
 ├── detect.py                          # Inference on images or videos
 ├── train.py, train_aux.py             # Model training (standard and p6 models)
 ├── export.py                          # Export model to ONNX/TensorRT
@@ -17,15 +17,16 @@ pothole-detection-yolov7/
 │   │   ├── datasets.py, general.py, activations.py, common.py, autoanchor.py
 │   └── models/
 │       ├── yolo.py, experimental.py, add_nms.py
-├── notebooks/                         # Analysis and visualization
+├── notebooks/
 │   ├── compare_YOLOv7_vs_YOLOv5x6.ipynb, keypoint.ipynb, visualization.ipynb
 ├── scripts/
-│   └── get_coco.sh                    # Download COCO dataset (optional)
-├── output/                            # Prediction outputs (images/videos)
-├── requirements.txt                   # Python dependencies
-├── README.md                          # Project documentation
+│   └── get_coco.sh
+├── output/
+├── requirements.txt
+├── README.md
+```
+</code></pre>
 
----
 
 ## ⚙️ Installation
 
