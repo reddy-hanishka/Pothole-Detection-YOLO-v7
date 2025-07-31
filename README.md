@@ -6,7 +6,7 @@ This project implements **YOLOv7** to detect **potholes** in real-time from road
 ---
 
 ## 📂 Project Structure
-<pre><code>```
+<pre><code>
 pothole-detection-yolov7/
 ├── main.py, main1.py, main_new.py     # Custom detection and experimentation scripts
 ├── detect.py                          # Inference on images or videos
@@ -24,7 +24,6 @@ pothole-detection-yolov7/
 ├── output/
 ├── requirements.txt
 ├── README.md
-```
 </code></pre>
 
 
@@ -45,17 +44,17 @@ pip install -r requirements.txt
 	1.	Prepare your data in YOLO format.
 	2.	Create a data/pothole.yaml describing your dataset:
 
-train: path/to/train/images
-val: path/to/val/images
-nc: 1
-names: ['pothole']
+                train: path/to/train/images
+                val: path/to/val/images
+                nc: 1
+                names: ['pothole']
 
 
 	3.	Train using:
 
-python train.py --workers 8 --device 0 --batch-size 16 \
-  --data data/pothole.yaml --img 640 640 \
-  --cfg cfg/training/yolov7.yaml --weights yolov7.pt --name pothole_yolov7
+                python train.py --workers 8 --device 0 --batch-size 16 \
+                --data data/pothole.yaml --img 640 640 \
+                --cfg cfg/training/yolov7.yaml --weights yolov7.pt --name pothole_yolov7
 
 
 ⸻
@@ -113,11 +112,6 @@ thop
 Then run:
 
 pip install -r requirements.txt
-
-
-⸻
-
-🖼 Sample Output
 
 
 ⸻
